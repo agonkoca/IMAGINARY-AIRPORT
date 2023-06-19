@@ -1,0 +1,530 @@
+body {
+    width: 100%;
+    background-color: #F7FBFC;
+    margin: 0px;
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    position: fixed;
+    z-index: 1;
+    border-bottom: #769FCD 2px solid;
+    font-weight: 500;
+}
+  
+li {
+    float: left;
+}
+  
+.index {
+    display: block;
+    color: #769FCD;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    float: left;
+}
+
+.index:hover {
+    background-color: #769FCD;
+    color: #F7FBFC;
+}
+
+
+.btn-list  {
+    margin-left: auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+    background-color: #769FCD;
+    color: #F7FBFC;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
+    font-weight: 700;
+    letter-spacing: .7px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 513px;
+    background-image: url(covid19.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+.about-hero {
+    letter-spacing: 2.2px;
+    font-size: 48px;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.longway {
+    color: white;
+    margin-right: 20px;
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: #769FCD 2px solid;
+}
+
+.luggagges-div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.goods-car {
+    display: flex;
+    flex-direction: row;
+}
+
+.luggagges {
+    margin-right: 200px;
+}
+
+.lost-luggagge {
+    margin-left: 200px;
+
+}
+
+.goods {
+    margin-right: 100px;
+}
+
+.car {
+    margin-left: 100px;
+}
+
+.learn-more {
+    border: none;
+    color: #769FCD;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: -5px;
+    background-color: #F7FBFC;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: #769FCD;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.luggagges-icon, .lost-luggagge-icon, .goods-icon, .car-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.luggagges-icon, .lost-luggagge-icon {
+    margin-left: -17.5px;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.covid19 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    border-bottom: #769FCD solid 2px;
+}
+
+.pic {
+    width: 346px;
+    height: 224px;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+}
+
+.travelling {
+    width: 346px;
+    height: 559px;
+    background-color: white;
+    color: #769FCD;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 65px;
+    line-height: 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: #769FCD 1px solid;
+    font-weight: 600;
+}
+
+.covid-subtitle {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: #F7FBFC;
+    align-self: center;
+    padding-bottom: 50px;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: #769FCD;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contactform {
+    background-color: white;
+    width: 45%;
+    height: 55%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    border: 1px solid #769FCD;
+}
+
+.contactform-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.firstname {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 25px;
+    width: 35%;
+    padding-left: 5px;
+}
+
+.lastname {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    width: 38%;
+}
+
+.email {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: inline-block;
+    margin-bottom: 25px;
+    width: 80%;
+    padding-left: 5px;
+}
+
+.subject {
+    font-size: 15px;
+    display: inline-block;
+    width: 80%;
+    height: 120px;
+    text-align: left;
+    padding-left: 6px;
+    padding-top: 6px;
+    height: 130px;
+    resize: none;
+}
+
+.submit {
+    display: block;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #769FCD;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 90px;
+    height: 36px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+
+    .luggagges-div {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .goods-car {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .luggagges, .lost-luggagge, .goods {
+        margin-bottom: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .car {
+        margin-left: 0px;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .luggagges-icon, .lost-luggagge-icon {
+        margin-left: 0px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 750px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .covid19 {
+        flex-direction: column;
+    }
+
+    .travelling1 {
+        margin-bottom: 75px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .subtitle {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+  
+    .nav { 
+        height: auto;
+        position: relative;
+        font-size: 21px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        overflow: hidden;
+        border-bottom: none;
+    }
+      
+    .index {
+        display: block;
+        padding: 0px;
+        float: none;
+        height: 60px;
+        text-align: center;
+        margin: 10px;
+        height: auto;
+        margin-left: none;
+    }
+
+    li {
+        border-bottom: #769FCD solid 2px;
+        width: 100%;
+    }
+    
+    .btn-list  {
+        width: 100%;
+        margin-left: none;
+        text-align: center;
+        background-color: #769FCD;
+        margin-bottom: none;
+    }
+    
+    .btn {
+        text-decoration: none;
+        background-color: #769FCD;
+        color: #F7FBFC;
+        border-radius: 6px;
+        font-size: 21px;
+        margin-right: 0px;
+        font-weight: bold;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .hero {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: -40px;
+    }
+
+    .about-hero {
+        font-size: 43px;
+    }
+
+    .longway {
+        font-size: 18px;
+    }
+
+    .firstname, .lastname, .email, .subject {
+        font-size: 12px;
+    }
+
+    .paragraph {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    .about-hero {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .longway {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .travelling1 {
+        transform: scale(0.8);
+        margin-top: -50px;
+    }
+
+    .travelling2 {
+        transform: scale(0.8);
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 355px) {  
+    .hero {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: -40px;
+    }       
+}
+
+@media only screen and (max-width: 330px) {
+    .about-hero {
+        font-size: 35px;
+        text-align: center;
+        max-width: fit-content;
+        margin-right: 0px;
+    }
+
+    .longway {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .travelling1 {
+        transform: scale(0.6);
+        margin-top: -100px;
+        
+    }
+
+    .travelling2 {
+        transform: scale(0.6);
+        margin-top: -200px
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .title {
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+}
